@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="A hello from Carola with About me, Contact, Networks, Downloads, Projects and Quote from Mark Twain - with rhombus shaped images and gradient-line">
+  <meta name="author" content="Carola Zapp" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <title>About Carola</title>
+</head>
+<body>
+  <nav class="navbar" id="navbar">
+    <div class="hamburger-menu">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div> 
+    </div>
+
+    <ul class="nav-list">
+      <li ><a href="#start"></a></li>
+      <li class="nav-item">
+        <a href="#about" class="nav-link">About</a></li>
+      <li class="nav-item">
+        <a href="#contact" class="nav-link">Contact</a></li>
+      <li class="nav-item">
+        <a href="#social-links" class="nav-link">Social Links</a></li>
+      <li class="nav-item">
+        <a href="#downloads" class="nav-link">Downloads</a></li>
+      <li class="nav-item">
+        <a href="#projects" class="nav-link">Projects</a></li>
+      <li class="box_sun_moon">
+        <div class="sun-moon"></div>
+      </li>
+    </ul>
+
+  </nav>
+
+<!-- Start -->
+  <section class="start" id="start">
+    <img class="start__image" src="./images/sommerwiese_mit_baumreihe_1920x1440.jpg"
+       alt="Sommerwiese mit Baumreihe als Hintergrundbild"/>
+      <div class="start__content">
+        <p> Hello! </p>
+      </div>
+    </img>
+  </section>
+
+<!-- About -->
+  <section class="about border-gradient border-gradient-green left-bottom" id="about">
+    <div class="container">
+      <div class="about__column-text">
+          <h2 class="about__text-heading">
+            <span class="text-heading-color">Maybe </span> I am the 
+            <span class="text-heading-color">perfect match </span>
+            for <span class="text-heading-color">your company?</span>
+          </h2>
+          <p class="about__text-content">
+            I have found my second homeland in Lindlar-Remshagen, my second career in <span class="text-content-color">Frontend Web Development...</span> 
+          </p>
+          <p class="about__text-content js-scroll fade-to-right-100">
+            Life is too short for a <span class="text-content-color">&#8221;Maybe&#8221;</span>, let&#96;s     
+            <span class="text-content-color">connect</span> and start a great
+            <span class="text-content-color">journey </span>together...
+          </p>
+      </div>
+      <div class="about__column-image">
+        <div class="rhombus">
+          <picture>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baum.150w.webp 150w, 
+            ./images/sommerwiese_mit_baum.300w.webp 300w, 
+            ./images/sommerwiese_mit_baum.600w.webp 600w,
+            ./images/sommerwiese_mit_baum.900w.webp 900w,
+            ./images/sommerwiese_mit_baum.1200w.webp 1200w, " 
+            type="image/webp"/>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baum.150w.jpeg 150w, 
+            ./images/sommerwiese_mit_baum.300w.jpeg 300w, 
+            ./images/sommerwiese_mit_baum.600w.jpeg 600w,
+            ./images/sommerwiese_mit_baum.900w.jpeg 900w,
+            ./images/sommerwiese_mit_baum.1200w.jpeg 1200w, " 
+            type="image/jpeg"/>
+            <img class="about__imageXX"
+              src="./images/sommerwiese_mit_baum_1920x1440.jpg" 
+              alt="Bild Sommerwiese mit Baum als Blob, animiert" />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+  <section class="contact border-gradient border-gradient-green right-bottom" id="contact">
+    <div class="container">
+      <div class="contact__column-text-right">
+        <div class="box-right">
+          <h2 class="contact__text-heading">
+          <span class="text-heading-color">Contact Details</span></h2>
+          <ul class="contact__list">
+            <li class="contact__list-item js-scroll fade-to-left-100">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="name">Carola Zapp</p>
+              <p class="adress">Zum Bayenhof 5</p>
+              <p class="adress">51789 Lindlar</p>
+            </li>
+            <li class="contact__list-item js-scroll fade-to-left-200">
+              <a class="link" href="mailto:carola.zapp@gmx.net?subject=Kontakt von Carola &body=Hallo Carola," target="_blank" rel="noreferrer"><i class="fa-solid fa-envelope"></i>carola.zapp@gmx.net</a> 
+            </li>
+            <li class="contact__list-item js-scroll fade-to-left-300" >
+              <a class="link" href="tel:+49 151-59496998"><i class="fa-solid fa-phone"></i>+49 151-59496998</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact__column-image-left">
+        <div class="rhombus">
+          <picture>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baumreihe.150w.webp 150w, 
+            ./images/sommerwiese_mit_baumreihe.300w.webp 300w, 
+            ./images/sommerwiese_mit_baumreihe.600w.webp 600w,
+            ./images/sommerwiese_mit_baumreihe.900w.webp 900w,
+            ./images/sommerwiese_mit_baumreihe.1200w.webp 1200w, " 
+            type="image/webp"/>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baumreihe.150w.jpeg 150w, 
+            ./images/sommerwiese_mit_baumreihe.300w.jpeg 300w, 
+            ./images/sommerwiese_mit_baumreihe.600w.jpeg 600w,
+            ./images/sommerwiese_mit_baumreihe.900w.jpeg 900w,
+            ./images/sommerwiese_mit_baumreihe.1200w.jpeg 1200w, " 
+            type="image/jpeg"/>
+            <img class="contact__imageXX" 
+              src="./images/sommerwiese_mit_baumreihe_1920x1440.jpg" 
+              alt="Bild Sommerwiese mit Baumreihe als Rhombus" />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Social links -->
+  <section class="social-links border-gradient border-gradient-green left-bottom" id="social-links">
+    <div class="container">
+      <div class="social-links__column-text">
+        <div class="box-left">
+          <h2 class="social-links__text-heading">
+            <span class="text-heading-color">Social Links</span>
+          </h2>
+          <p class="social-links__text-content">
+            Have a look at my profiles:
+          </p>
+          <ul class="social-links__list">
+            <li class="social-links__list-item js-scroll fade-to-right-100">
+              <a class="link" href="https://www.github.com/CarolaZapp" target="_blank"> 
+                <i class="fa-brands fa-square-github"></i>GitHub</a>
+            </li>
+            <li class="social-links__list-item js-scroll fade-to-right-200">
+              <a class="link" href="https://www.linkedin.com/in/carola-zapp-profile"  target="_blank">              
+                <i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+            </li>
+            <li class="social-links__list-item js-scroll fade-to-right-300">
+              <a class="link" href="https://www.xing.com/profile/Carola_Zapp/cv" target="_blank">              
+              <i class="fa-brands fa-square-xing"></i>Xing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="social-links__column-image">
+        <div class="rhombus">
+          <picture>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baum.150w.webp 150w, 
+            ./images/sommerwiese_mit_baum.300w.webp 300w, 
+            ./images/sommerwiese_mit_baum.600w.webp 600w,
+            ./images/sommerwiese_mit_baum.900w.webp 900w,
+            ./images/sommerwiese_mit_baum.1200w.webp 1200w, " 
+            type="image/webp"/>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baum.150w.jpeg 150w, 
+            ./images/sommerwiese_mit_baum.300w.jpeg 300w, 
+            ./images/sommerwiese_mit_baum.600w.jpeg 600w,
+            ./images/sommerwiese_mit_baum.900w.jpeg 900w,
+            ./images/sommerwiese_mit_baum.1200w.jpeg 1200w, " 
+            type="image/jpeg"/>
+            <img class="social-links__imageXX" 
+              src="./images/sommerwiese_mit_baum_1920x1440.jpg" 
+              alt="Bild Sommerwiese mit Baum als Blob, animiert" />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Downloads -->
+  <section class="download border-gradient border-gradient-green right-bottom" id="downloads">
+    <div class="container">
+      <div class="download__column-text-right">
+        <div class="box-right">
+          <h2 class="download__text-heading"> 
+            <span class="text-heading-color" >Downloads</span> 
+          </h2>
+          <p class="download__text-content">All further information about myself can be found in the following documents, which are available for download...</p>
+          <ul class="download__list">
+            <li class="download__list-item js-scroll fade-to-left-100">
+              <a class="link" href="./pdf/Lebenslauf_Carola_Zapp_11_2023.pdf" target="_blank"> 
+                <i class="fa-solid fa-file-arrow-down"></i>Resume</a>
+            </li>
+            <li class="download__list-item js-scroll fade-to-left-200">
+              <a class="link" href="./pdf/Zertifikate_Zeugnisse_Carola_Zapp_11_2023.pdf" target="_blank">              
+              <i class="fa-solid fa-file-arrow-down"></i>Certificates & Credentials</a>
+            </li>
+            <li class="download__list-item js-scroll fade-to-left-300">
+              <a class="link" href="./pdf/Abschlussbescheinigungen_Carola_Zapp_11_2023.pdf" target="_blank">              
+              <i class="fa-solid fa-file-arrow-down"></i>Certificates of Completion</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="download__column-image-left">
+        <div class="rhombus">
+          <picture>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baumreihe.150w.webp 150w, 
+            ./images/sommerwiese_mit_baumreihe.300w.webp 300w, 
+            ./images/sommerwiese_mit_baumreihe.600w.webp 600w,
+            ./images/sommerwiese_mit_baumreihe.900w.webp 900w,
+            ./images/sommerwiese_mit_baumreihe.1200w.webp 1200w, " 
+            type="image/webp"/>
+            <source sizes="(max-width: 768px) 55vw, 40vw" 
+            srcset="./images/sommerwiese_mit_baumreihe.150w.jpeg 150w, 
+            ./images/sommerwiese_mit_baumreihe.300w.jpeg 300w, 
+            ./images/sommerwiese_mit_baumreihe.600w.jpeg 600w,
+            ./images/sommerwiese_mit_baumreihe.900w.jpeg 900w,
+            ./images/sommerwiese_mit_baumreihe.1200w.jpeg 1200w, " 
+            type="image/jpeg"/>
+          <img class="download__imageXX" 
+            src="./images/sommerwiese_mit_baumreihe_1920x1440.jpg" 
+            alt="Bild Sommerwiese mit Baumreihe als Rhombus" />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects  -->
+  <section class="projects border-gradient border-gradient-green left" id="projects">
+    <div class="container">
+      <div class="projects__video-box">
+        <h2 class="projects__text-heading"> <span class="text-heading-color" >Projects</span> </h2>
+         <p class="projects__text-content">
+          ... for more projects please see my 
+          <a class="link" href="https://www.github.com/CarolaZapp" target="_blank"> GitHub</a> profile...
+        </p>
+        <div class="projects__progress-bar"></div>
+        <video class="project__video" muted loop autoplay playsinline>
+          <source type="video/webm" src="./videos/dieParty.webm">
+          <source type="video/mp4" src="./videos/dieParty.mp4">
+        </video>
+      </div>
+      <div class="project__information">
+        <p class="project-name">die P@rty</p>
+        <a class="project-link" href="https://carolaz.app/" target="_blank" >Link to the app </a>
+      </div>
+    </div>
+  </section>
+
+<!-- Quote -->
+  <section class="quote">
+    <img class="quote__image"    src="./images/sommerwiese_mit_baum_1920x1440.jpg" 
+    alt="Sommerwiese mit Baum als Hintergrundbild" /> 
+      <div class="quote__content">
+        <h3>&#8221;Age is an issue of mind over matter. <br />
+        If you don&#96;t mind, <br/> it doesen&#96;t matter.&#8221;</h3>
+        <small>Mark Twain</small>
+      </div>
+    </img>
+  </section>
+
+  <section class="divider"></section>
+
+ <footer>
+  <div class="to_top">
+    <a href="#start"><i class="fa-solid fa-circle-arrow-up"></i></a>
+  </div>
+    <small>Carola Zapp, Copyright  &copy;
+      <time datetime="2023">2023</time></small>
+    <small> &raquo; <span class="BZgesamt"></span> visitors since <span class="BZseit"></span> &laquo;</small>
+    <a class="link" href="http://127.0.0.1:5500/privacyPolicy.html" target="_blank" > <small>Privacy policy</small> </a>
+ 
+ </footer>
+
+ <script src="script.js"></script>
+
+ <script language="JavaScript" src="https://www.besucherzaehler-kostenlos.de/js/counter.js.php?count=1&id=WZGsepXy2L&start=0&design=6"></script>
+</body>
+</html>
